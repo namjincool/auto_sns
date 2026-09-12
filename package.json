@@ -1,0 +1,20 @@
+{
+  "name": "cafe-flow-sns-mvp",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "api": "node server.mjs",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test:api": "node --test tests/api.smoke.test.mjs"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {}
+}
